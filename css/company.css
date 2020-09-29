@@ -1,0 +1,944 @@
+.teshu{
+	font-size: 14px!important;
+}
+.company-banner img{
+	width:100%;
+}
+.team-box{
+	padding:20px 0;
+	border-top: 5px solid #d2d9ec;
+	border-bottom: 5px solid #d2d9ec;
+}
+.team-box h1,.team-box h2{
+	color: #003366;
+}
+
+.team-con-mobile{
+	display: block;
+	overflow: hidden;
+}
+.team-con-mobile li{
+	float: left;
+	width:50%;
+	padding:10px 5px;
+	white-space: normal;
+}
+.teamPic{
+	position: relative;
+	overflow: hidden;
+	
+}
+.teamPic img{
+	width:100%;
+	border:1px solid #90989c;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.teamTitle{
+	padding:10px;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	color: #003366;
+	width:100%;
+}
+.team-label img{
+	width:100%;
+}
+.team-modal .modal-header{
+	position: relative;
+	border-bottom: 0;
+	padding: 0;
+	border-left:1px solid #abb6c2;
+	border-right:1px solid #abb6c2;
+	border-top:1px solid #abb6c2;
+}
+.team-modal .modal-body{
+	border-left:1px solid #abb6c2;
+	border-right:1px solid #abb6c2;
+	border-bottom:1px solid #abb6c2;
+}
+.team-pop-enname{
+	color: #fff;
+	font-size: 26px;
+	text-align: center;
+	line-height: 50px;
+	background: #9fa0a1 url(http://www.dsconsulting.com.cn/images/team-pop-enname-bg.jpg) center bottom no-repeat;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.team-pop-enname span{
+	opacity: 0.4;
+}
+
+.pop-team-t1{
+	color: #373e49;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.pop-team-t2{
+	font-size: 16px;
+	line-height: 30px;
+	color: #373e49;
+	opacity: 0.8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.pop-team-t3{
+	font-size: 14px;
+	line-height: 20px;
+	opacity: 0.8;
+}
+.team-modal .modal-dialog .modal-content{
+	padding:15px;
+}
+.pop-team-t1 span{
+	font-size: 18px;
+}
+.team-close{
+	position: absolute;
+	right:5px;
+	top: 5px;
+	opacity: 1;
+}
+.companyInfo-box{
+	background:url(http://www.dsconsulting.com.cn/images/companyInfo_bg.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #FFF;
+}
+.companyInfo-box h2{
+	margin-bottom: 20px;
+}
+.companyInfo-pic{
+	padding-bottom: 10px;
+}
+.companyInfo-pic img{
+	width:100%;
+}
+.companyInfo-text{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+.companyInfo-text p{
+	padding-bottom: 20px;
+}
+.companyInfo-text .line{
+	width:60%;
+	height: 1px;
+	line-height: 1px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+.info-num{
+	overflow: hidden;
+	padding-bottom: 20px;
+	
+}
+.info-num li{
+	float: left;
+	margin: 10px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+	display: table;
+	border:1px solid #fff;
+	border-radius: 50%;
+	overflow: hidden;
+    table-layout: fixed;
+	
+}
+.info-num li span{
+	font-size: 24px;
+	line-height: 40px;
+}
+.info-num li i{
+	font-size: normal;
+}
+.info-num .num-con{
+   display:table-cell;
+   vertical-align:middle;
+	
+}
+.info-num .num-con p{
+	text-align: center;
+}
+.info-num .num-con .p3,.info-num .num-con .p2{
+	font-size: 12px;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+.clients-box{
+	border-top: 5px solid #d2d9ec;
+	border-bottom: 5px solid #d2d9ec;
+	padding-top: 60px;
+}
+.clients-container{
+	padding-top: 20px;
+}
+.clients-container .swiper-slide img{
+	border:1px solid #3b93f5;
+	width:100%;
+}
+.client-item{
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+.clients-container .swiper-slide .client-pic-gray{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	border:1px solid #ccc;
+}
+.clients-con{
+	padding-bottom: 60px;
+	position: relative;
+}
+.clients-pagination{
+	left: 0;
+	bottom: 30px;
+	text-align: center;
+	width:100%;
+}
+.clients-pagination span{
+	margin: 0 4px;
+}
+.agency{
+	background: url(http://www.dsconsulting.com.cn/images/agency_bg.jpg) no-repeat center;
+	background-size: cover;
+	color:#fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.agency-con-PC{
+	display: none;
+}
+.agency h2{
+	margin-bottom: 0px;
+}
+.agency-item{
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.agency-icon img{
+	max-width: 100%;
+}
+.agency-text{
+	display: none;
+}
+.shanghai-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_shanghai.png) no-repeat;
+	padding-left: 8px;
+}
+.chengdu-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_chengdu.png) no-repeat;
+	padding-left: 3px;
+}
+.guangzhou-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_guangzhou.png) no-repeat;
+	padding-left: 8px;
+}
+.hangzhou-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_hangzhou.png) no-repeat;
+	padding-left: 8px;
+}
+.wuhan-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_wuhan.png) no-repeat;
+	padding-left: 8px;
+}
+.tianjin-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_beijing.png) no-repeat;
+	padding-left: 3px;
+}
+.agency-text-title{
+	width:120px;
+	height: 100px;
+	color: #003467;
+	font-size: 18px;
+	padding-top: 80px;
+	line-height: 20px;
+}
+.agency-text-title-mobile{
+	width:120px;
+	height: 100px;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 80px;
+	line-height: 20px;
+	margin: auto;
+}
+.agency-text-title span{
+	letter-spacing: -13px;
+}
+
+.agency-text-pin{
+	font-size: 30px;
+	color: #fff;
+	line-height: 40px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+.agency-text-adr{
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 8px;
+}
+.modal-body .agency-text-adr{
+	color: #003467;
+	padding-left: 0;
+}
+.agency-con-mobile{
+	display: block;
+}
+.agency-con-mobile .btn{
+	padding:0!important;
+}
+.agency-mobile-title .agency-text-title{
+	color: #fff;
+}
+.agency-con-mobile .tianjin-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_tianjin-mobile.png) no-repeat;
+	padding-left: 0px;
+	text-align: center;
+}
+.agency-con-mobile .shanghai-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_shanghai-mobile.png) no-repeat;
+	padding-left: 0px;
+	text-align: center;
+}
+.agency-con-mobile .chengdu-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_chengdu-mobile.png) no-repeat;
+	padding-left: 0px;
+	text-align: center;
+}
+.agency-con-mobile .guangzhou-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_guangzhou-mobile.png) no-repeat;
+	padding-left: 0px;
+	text-align: center;
+}
+.agency-con-mobile .hangzhou-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_guangzhou-mobile.png) no-repeat;
+	padding-left: 0px;
+	text-align: center;
+}
+.agency-con-mobile .wuhan-title {
+	background:url(http://www.dsconsulting.com.cn/images/agency_title_bg_wuhan-mobile.png) no-repeat;
+	padding-left: 0px;
+	text-align: center;
+}
+.agency-modal-header{
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+.agency-con-mobile .agency-text-pin{
+	color: #003467;
+	text-align: center;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+.horor-box{
+	padding:20px 0;
+	border-top: 5px solid #d2d9ec;
+	border-bottom: 5px solid #d2d9ec;
+	color: #003467;
+}
+.horor-box h1,.horor-box h2{
+	color: rgb(51,51,51);
+}
+
+.horor-con{
+	display: none;
+}
+.horor-con-mobile{
+	display: block;
+	overflow: hidden;
+}
+.horor-con-mobile li{
+	float: left;
+	width:50%;
+	padding:5px 5px;
+}
+
+.hororPic{
+	position: relative;
+	overflow: hidden;
+	padding:0!important;
+}
+.hororPic img{
+	width:100%;
+}
+.horor-text{
+	display: none;
+}
+.horor-name{
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 40px;
+	padding-top: 30px;
+	text-align: center;
+}
+.horor-time{
+	text-align: center;
+	font-size: 19px;
+	line-height: 30px;
+}
+.horor-text-con{
+	width:100%;
+	background:rgba(0,51,102,0.8);
+}
+.horor-info{
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.horor-cases{
+	font-size: 14px;
+	line-height: 24px;
+}
+.horor-text-con-div p,.horor-text-con-div h1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.horor-cases p{
+	padding-bottom: 5px;
+}
+
+.horor-cases h1{
+	font-size: 22px;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	line-height: 30px;
+	color: #fff;
+}
+.pop-close{
+	opacity: 1;
+	outline: none;
+	margin-top: 0;
+}
+.pop-close2{
+	width:40px;
+	outline: none;
+	margin-top: 0;
+}
+svg{
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);  
+}
+.mobile-horor-title{
+	font-size: 20px;
+}
+.mobile-horor-time{
+	font-size: 14px;
+	opacity: 0.8;
+}
+.mobile-horor-modal-body .mobile-horor-info{
+	font-size: 16px;
+	line-height: 24px;
+	padding-bottom: 20px;
+	padding-top: 0;
+}
+.mobile-horor-tt{
+	font-size: 18px;
+}
+.mobile-horor-modal-body{
+	font-size: 14px;
+	line-height: 24px;
+}
+.mobile-horor-modal-body p{
+	padding-top: 10px;
+}
+.timeline{
+	 background: url(http://www.dsconsulting.com.cn/images/timeline-box-bg.jpg) no-repeat center;
+	padding-top: 20px;
+	background-size: cover;
+}
+.timeline h1,.timeline h2{
+	color: #003366;
+}
+.timeline-box-mobile{
+	display: block;
+	padding-bottom:20px;
+	
+}
+.timeline-box{
+    display: none;
+}
+.timeline-mobile-div1,.timeline-mobile-div2,.timeline-mobile-div3{
+	float: left;
+}
+.timeline-mobile-div1{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #003070;
+	width:60px;
+}
+.timeline-mobile-div2{
+	background:url(http://www.dsconsulting.com.cn/images/timeline-mobile-square.png) no-repeat top;
+	width:14px;
+	height: 20px;
+}
+.timeline-mobile-div3{
+	font-size: 14px;
+	line-height: 20px;
+	color: #003070;
+	padding-left: 10px;
+}
+.timeline-mobile-div3 span{
+	font-weight: bold;
+}
+.timeline-mobile-spe{
+	font-size: 16px;
+	font-weight: bold;
+}
+.timeline-mobile-item{
+	padding-bottom:30px;
+	overflow: hidden;
+}
+.timeline-box-mobile .container{
+	background:url(http://www.dsconsulting.com.cn/images/timeline-mobile-line.jpg) repeat-y;
+	background-position: 81px 0px;
+}
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+
+	.company-banner {
+		width:100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.company-video{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width:100%;
+		object-fit: cover;
+		z-index: -1;
+	}
+	.company-banner-text{
+		text-align: center;
+		width:100%;
+		color: #fff;
+		font-size: 30px;
+		line-height: 100px;
+		padding:250px 0;
+	}
+    .team-box{
+		padding:70px 0 50px 0;
+		border-top: 5px solid #d2d9ec;
+		border-bottom: 5px solid #d2d9ec;
+	}
+	.team-con{
+		display: block;
+	}
+	.team-con-mobile{
+		display: none;
+	}
+	.teamTitle{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.team-li{
+		width: 100%;
+		cursor: pointer;
+		border:0px;
+		border-radius: 0;
+	}
+	.team-li img{
+		width: 100%;
+		display: block;
+	}
+	.team-con{
+		padding:0 60px;
+		position: relative;
+
+	}
+	.team-next, .team-prev{
+		outline: none;
+		
+	}
+	.team-next,.case-next{
+		background:url(http://www.dsconsulting.com.cn/images/next.png) no-repeat center!important;
+	}
+	.team-prev,.case-prev{
+		background:url(http://www.dsconsulting.com.cn/images/prev.png) no-repeat center!important;
+	}
+	.team-pop-enname{
+		font-size: 56px;
+		line-height: 90px;
+	}
+	.pop-team-t1{
+		font-size: 38px;
+		line-height: 38px;
+		padding-left: 230px;
+	}
+	.pop-team-t1 span{
+		font-size: 24px;
+	}
+	.pop-team-t2{
+		font-size: 20px;
+		line-height: 30px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.pop-team-t3{
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.companyInfo-box{
+		background:url(http://www.dsconsulting.com.cn/images/companyInfo_bg.jpg) no-repeat center;
+		background-size: 100% 100%;
+		padding-top: 70px;
+	    padding-bottom: 70px;
+		
+	}
+	.companyInfo-text .line{
+		margin-bottom: 30px;
+	}
+	.companyInfo-box h1,.companyInfo-box h2{
+		text-align: left;
+		margin-left: 10px;
+	}
+	.companyInfo-box h2{
+		margin-bottom: 20px;
+		padding-left: 5px;
+	}
+	.companyInfo-text{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.companyInfo-text p{
+		padding-bottom: 24px;
+	}
+	.info-num li{
+		font-size: 14px;
+	    line-height: 14px;
+	}
+	.info-num li span{
+		font-size: 36px;
+		line-height: 40px;
+	}
+	.info-num .num-con .p3,.info-num .num-con .p2{
+		font-size: 12px;
+		-webkit-transform: scale(1);
+	    transform: scale(1);
+		
+	}
+	.clients-container .swiper-slide .client-pic-gray{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		opacity: 1;
+		border:1px solid #ccc;
+	}
+
+	.client-item:hover .client-pic-gray{
+		opacity: 0;
+	}
+	.agency{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.agency-con-PC{
+		display: block;
+	}
+	.agency-con-mobile{
+		display: none;
+	}
+	.agency-item{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.agency-text{
+		display: block;
+	}
+	.agency-icon{
+		position: absolute;
+		left: 0;
+		top: 0;
+		text-align: center;
+		width:100%;
+	}
+	.agency-icon img{
+		max-width: 100%;
+	}
+	.agency-item:hover .agency-icon{
+		opacity: 0;
+	}
+	.agency-item:hover .agency-text{
+		opacity: 1;
+		display: table;
+	}
+	.agency-text-con{
+		vertical-align: middle ;
+	}
+	.agency-text{
+		opacity: 0;
+	}
+	
+	.agency h2{
+		margin-bottom: 27px;
+	}
+	.agency-close{
+		display: none;
+	}
+	.horor-box{
+		padding:70px 0 50px 0;
+		border-top: 5px solid #d2d9ec;
+		border-bottom: 5px solid #d2d9ec;
+		color: #fff;
+	}
+	.horor-con{
+		display: block;
+	}
+	.horor-con-mobile{
+		display: none;
+	}
+	.horor-li{
+		width: 100%;
+		cursor: pointer;
+		position: relative;
+	}
+	.horor-li img{
+		width: 100%;
+		display: block;
+	}
+	.horor-con{
+		padding:0 60px;
+		position: relative;
+
+	}
+	.horor-next, .horor-prev{
+		outline: none;
+		
+	}
+	.horor-next{
+		background:url(http://www.dsconsulting.com.cn/images/next.png) no-repeat center!important;
+	}
+	.horor-prev{
+		background:url(http://www.dsconsulting.com.cn/images/prev.png) no-repeat center!important;
+	}
+	.horor-li:hover .horor-text{
+		opacity: 1;
+	}
+	.horor-text{
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width:100%;
+		height: 100%;
+		overflow: hidden;
+		z-index: 99;
+		color: #ffff;
+		opacity: 0;
+	}
+	.horor-close{
+		display: none;
+	}
+	/*荣誉中滚动条样式美化*/
+	.zUIpanelScrollBox,.zUIpanelScrollBar{
+		width:10px;
+		top:4px;
+		right:2px;
+		border-radius:5px;
+
+	}
+	.zUIpanelScrollBox{
+		background:black;opacity:0.1;
+		filter:alpha(opacity=10);
+	}
+	.zUIpanelScrollBar{
+		background:#fff;opacity:0.8;
+		filter:alpha(opacity=80);
+	}
+	
+	.timeline-box{
+		 display: block;
+		 position: relative;
+	     padding:20px 25px;
+		
+	}
+	.timeline-container{
+		background:url(http://www.dsconsulting.com.cn/images/timeline-line.jpg) no-repeat;
+		background-position: 0 196px;
+	}
+  .timeline-slide{
+	  height: 400px!important;
+	  position: relative;
+	  cursor: pointer;
+  }
+  .year{
+	  font-size: 22px;
+	  font-weight: bold;
+	  color: #fff;
+	  width:100px;
+	  height: 100px;
+	  line-height: 100px;
+	  border-radius: 50%;
+	  background:#003070;
+	  text-align: center;
+	  border:4px solid #3083df;
+	  left: 106px;
+	  top: 146px;
+	  position: absolute;
+	  z-index: 999;
+	  -webkit-transform: scale(0.44);
+	  -moz-transform: scale(0.44);
+	  -ms-transform: scale(0.44);
+	  -o-transform: scale(0.44);
+	  transform: scale(0.44);
+	  transition: all .5s;
+  }
+  .year-thing{
+	  position: absolute;
+	  width: 265px;
+	  left: -80px;
+	  bottom: 70px;
+	  font-size: 14px;
+	  line-height: 20px;
+	  color: #003070;
+	  text-align: right;
+	  -webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	  transition: all .5s;
+  }
+  .year-hover{
+	  color: #3083df;
+	  background:#fff;
+	  -webkit-transform: scale(1);
+	  -moz-transform: scale(1);
+	  -ms-transform: scale(1);
+	  -o-transform: scale(1);
+	  transform: scale(1);
+	  transition: all .8s;
+  }
+  .year-thing-hover{
+	  position: absolute;
+	  width: 265px;
+	  left: 100px!important;
+	  bottom: 270px!important;
+	  font-size: 19px;
+	  line-height: 26px;
+	  color: #003070;
+	  text-align: left;
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	  transition: all .8s;
+  }
+   .span-hover{
+	  font-weight: bold;
+  }
+  .year-ting-spe-hover{
+	  font-size: 32px;
+	  display: block;
+	  line-height: 40px;
+  }
+	 .year-thing-kb-hover{
+		  padding-top: 10px;
+	  }
+    .timeline-next{
+		background:url(http://www.dsconsulting.com.cn/images/timeline-next.png) no-repeat center!important;
+		right:0!important;
+		outline: none;
+	}
+	.timeline-prev{
+		background:url(http://www.dsconsulting.com.cn/images/timeline-prev.png) no-repeat center!important;
+		left: 0!important;
+		outline: none;
+	}
+	.timeline-box-mobile{
+		display: none;
+	}
+	.timeline{
+		 background: url(http://www.dsconsulting.com.cn/images/timeline-box-bg.jpg) no-repeat center;
+		padding-top: 70px;
+		background-size: 100% 100%;
+		padding-bottom: 20px;
+	}
+}
+/* 小屏幕（平板，大于等于992px） */
+@media (min-width: 992px) {
+	.company-banner-text{
+		padding:350px 0;
+		font-size: 35px;
+	}
+	.companyInfo-box{
+		padding-top: 90px;
+	    padding-bottom: 90px;
+	}
+	.companyInfo-text .line{
+		margin-bottom: 40px;
+	}
+	.companyInfo-box h1,.companyInfo-box h2{
+		margin-left: 15px;
+	}
+	.companyInfo-box h2{
+		margin-bottom: 30px;
+	}
+	.info-num li{
+		line-height: 20px;
+	}
+	.info-num li span{
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.agency{
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+	
+}
+/* 小屏幕（平板，大于等于1200px） */
+@media (min-width: 1200px) {
+	.company-banner-text{
+		padding:490px 0;
+	}
+	.companyInfo-box{
+		padding-top: 140px;
+	    padding-bottom: 110px;
+	}
+	.companyInfo-pic{
+		width:39%;
+	}
+	.companyInfo-text{
+		width:61%;
+		padding-top: 10px;
+	}
+	.companyInfo-text .line{
+		margin-bottom: 70px;
+	}
+	.info-num li{
+		margin:0 28px;
+	}
+	.info-num li span{
+		font-size: 56px;
+		line-height: 60px;
+	}
+	.agency{
+		padding-top: 60px;
+		padding-bottom: 110px;
+	}
+	.agency{
+		background: url(http://www.dsconsulting.com.cn/images/agency_bg.jpg) no-repeat center;
+		background-size: 100% 100%;
+	}
+}

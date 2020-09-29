@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "source-han-sans-simplified-c", sans-serif!important;
+}
+li {
+    list-style: none;
+}
+h1 {
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+}
+h2 {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+i {
+    font-style: normal;
+}
+/*导航模块 */
+.nav {
+    overflow: hidden;
+}
+.nav-custom {
+    background: rgba(0, 48, 112, 0.7);
+}
+.logo {
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+}
+#lk-header {
+    display: inline-block;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.mobileLogo {
+    display: block;
+    width: 80px;
+    margin: auto;
+    padding: 5px 15px;
+}
+.mobileLogo img {
+    width:50px;
+	height: 40px;
+}
+.nav-click-mobile {
+    width: 52px;
+    cursor: pointer;
+    padding: 15px;
+    margin: 0;
+    float: left;
+    margin-top: -50px;
+}
+
+@media (max-width: 768px){
+    .navbar-nav > li > a {
+        line-height: 30px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+    }
+    h2 {
+    font-size: 14px;
+    text-align: center;
+    }
+}
+
+.mobileLanguage a{
+    float: right;
+    margin-top: -35px;
+    padding-right: 15px;
+    color: #fff;
+}
+.navbar-right a {
+    color: #fff;
+    float: right;
+    display: block;
+    height: 88px;
+    padding: 15px 0;
+    line-height: 58px;
+}
+
+
+
+/* 底部模块 */
+.footer {
+    background-color: #05111f;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+.footer-link {
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.footer p {
+    line-height: 16px;
+    color: #8f8888;
+    font-size: 12px;
+    opacity: 0.4;
+    padding-bottom: 15px;
+
+}
+.footer .stock {
+    color: #4b9bf4;
+    padding-bottom: 0;
+}
+.footer:last-child {
+    font-size: 10px;
+}
+.swiper-container img {
+    width: 100%;
+}
+
+
+/* 小屏幕 */
+@media (min-width:1200px) {
+   .container {
+       width: 1200px;
+   }
+}

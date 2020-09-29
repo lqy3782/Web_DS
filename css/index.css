@@ -1,0 +1,536 @@
+/* 公司信息 */
+.info-box {
+    background: #d2d8dd url(../images/index-info-bg.jpg) no-repeat center bottom;
+    background-size: 100%;
+}
+
+.more {
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.more-a {
+    color: #003366;
+}
+
+.more-b {
+    color: #fff;
+}
+
+.info-box {
+    background: #d2d8dd url(../images/index-info-bg.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.info-box h1,
+.info-box h2 {
+    color: #003366;
+}
+
+.info-text {
+    text-align: center;
+    color: #003366;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.info-num {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.info-num li {
+    float: left;
+    margin: 10px;
+    color: #003366;
+    font-size: 12px;
+    line-height: 12px;
+    display: table;
+    border: 1px solid #003366;
+    border-radius: 50%;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+.info-num li span {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.info-num li i {
+    font-size: normal;
+}
+
+.info-num .num-con {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.info-num .num-con p {
+    text-align: center;
+}
+
+.info-num .num-con .p3,
+.info-num .num-con .p2 {
+    font-size: 10px;
+}
+
+.info-box .more {
+    padding-top: 20px;
+}
+/* 核心业务模块 */
+.business-box {
+    padding: 20px 0;
+    color: #fff;
+    background: #003366 url(../images/business-bg-s.jpg) no-repeat center bottom;
+}
+.business-item {
+    padding: 2px;
+    cursor: pointer;
+}
+.business-1-frontage {
+    background: url(../images/business-1-bg1.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.business-2-frontage {
+    background: url(../images/business-2-bg1.png) no-repeat center;
+    background-size: cover;
+    color: #003366;
+}
+.business-3-frontage {
+    background: url(../images/business-3-bg1.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.business-4-frontage {
+    background: url(../images/business-4-bg1.png) no-repeat center;
+    background-size: cover;
+    color: #003366;
+}
+.business-5-frontage {
+    background: url(../images/business-5-bg1.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.business-6-frontage {
+    background: url(../images/business-6-bg1.png) no-repeat center;
+    background-size: cover;
+    color: #003366;
+}
+.frontage {
+    transition: all 0.5s ease;
+    padding: 10px 15px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.busi-text3 {
+    padding-top: 20px;
+    line-height: 18px;
+    text-align: left !important;
+}
+.business-2-backface,
+.business-4-backface,
+.business-6-backface {
+    background: rgba(5,3,56,0.9);
+}
+.business-1-backface,
+.business-3-backface,
+.business-5-backface {
+    background: rgba(45,125,231,0.9);
+}
+.business-con {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.business-con p {
+    text-align: center;
+}
+.business-con .icon {
+    padding-bottom: 10px;
+}
+.business-con .icon img {
+    width: 80px;
+}
+.busi-text1 {
+    font-size: 20px;
+}
+.busi-text2 {
+    font-size: 12px;
+}
+.busi-text3 {
+    font-size: 14px;
+}
+.backface {
+    display: none;
+}
+.business-box .more a {
+    color: #fff;
+}
+/* 公司新闻模块 */
+.news-box {
+    padding: 20px 0;
+}
+
+.news-box h1,
+.news-box h2 {
+    color: #003366;
+    margin-bottom: 5px;
+}
+.news-con {
+    position: relative;
+}
+
+.newPic img {
+    width: 100%;
+}
+
+.newTitle {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    background: rgba(6, 94, 191, 0.56);
+    width: 100%;
+}
+
+.newTitle span {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    max-height: 14px;
+    overflow: hidden;
+    color: #fff;
+}
+/* 获奖案例 */
+.case-box {
+    background: url(../images/case-box-bg.jpg) no-repeat center;
+    background-size: 100% 100%;
+    padding: 20px 0;
+}
+
+.case-box h1,
+.case-box h2 {
+    color: #003366;
+}
+.case-con {
+    margin-top: 20px;
+}
+
+
+.casePic img {
+    width: 100%;
+}
+
+.caseTitle {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background: rgba(6, 94, 191, 0.56);
+}
+
+.caseTitle span {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    max-height: 14px;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+
+/* 小屏幕 */
+@media (min-width: 768px) {
+    /* 公司介绍 */
+    .info-text {
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 8px;
+        line-height: 50px;
+        padding-bottom: 40px;
+    }
+
+    .info-num li {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .info-num li span {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .info-num .num-con .p3,
+    .info-num .num-con .p2 {
+        font-size: 12px;
+    }
+   /* 核心业务 */
+   .business-box {
+       padding-bottom: 20px 0;
+       border-top: 3px solid #d2d9ec;
+       border-bottom: 3px solid #d2d9ec;
+       background: #d2d8dd url(../images/business-bg-s.jpg);
+   }
+   .business-box h2 {
+       line-height: 20px;
+       margin-bottom:40px;
+   }
+   .business-con {
+       margin-left: -3px;
+       margin-right: -3px;
+   }
+   .frontage {
+       padding: 10px 15px;
+   }
+  
+.business-1-frontage {
+    background: url(../images/business-1-bg1.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.business-2-frontage {
+    background: url(../images/business-2-bg1.png) no-repeat center;
+    background-size: cover;
+    color: #003366;
+}
+.business-3-frontage {
+    background: url(../images/business-3-bg1.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.business-4-frontage {
+    background: url(../images/business-4-bg1.png) no-repeat center;
+    background-size: cover;
+    color: #003366;
+}
+.business-5-frontage {
+    background: url(../images/business-5-bg1.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.business-6-frontage {
+    background: url(../images/business-6-bg1.png) no-repeat center;
+    background-size: cover;
+    color: #003366;
+}
+   .business-con .icon {
+    padding-bottom: 10px;
+   } 
+   .business-con .icon img {
+       width: 100px;
+   }
+   .busi-text1 {
+       font-size: 20px;
+   }
+   .busi-text2 {
+    font-size: 14px;
+}
+.busi-text3 {
+    overflow: hidden;
+    font-size: 12px;
+    max-height: 74px;
+    padding-top: 20px;
+}
+.busi-text3 span {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    white-space: overflow;
+}
+/* 公司新闻模块 */
+.news-box {
+    padding: 44px 0;
+}
+
+.news-con {
+    display: block;
+}
+
+.news-con-mobile {
+    display: none;
+}
+
+.news-li {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.news-li img {
+    width: 100%;
+    display: block;
+}
+
+.newTitle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.newTitle span {
+    -webkit-line-clamp: 2;
+    max-height: 28px;
+    color: #fff;
+}
+
+.news-li:hover .newTitle {
+    opacity: 1;
+}
+.news-box h2 {
+    font-size: 14px;
+}
+.news-con {
+    position: relative;
+    padding: 40px 60px;
+}
+
+.news-next,
+.news-prev {
+    outline: none;
+}
+
+.news-next,
+.case-next {
+    background: url(../images/next.png) no-repeat center !important;
+}
+
+.news-prev,
+.case-prev {
+    background: url(../images/prev.png) no-repeat center !important;
+}
+.case-box {
+    background: url(http://www.dsconsulting.com.cn/images/case-box-bg.jpg) no-repeat center;
+    background-size: 100% 100%;
+    padding: 44px 0;
+}
+
+.case-con {
+    display: block;
+}
+
+.case-li {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.case-li img {
+    width: 100%;
+    display: block;
+}
+
+.caseTitle {
+    overflow: hidden;
+    font-size: 14px;
+    background: none;
+    color: #003366;
+}
+
+.caseTitle span {
+    color: #003366;
+}
+
+.case-con {
+    padding: 0 60px;
+    position: relative;
+}
+
+.case-next,
+.case-prev {
+    outline: none;
+}
+
+}
+
+/* 中屏幕 */
+@media (min-width:992px) {
+    /* 公司介绍 */
+    .info-num li {
+        line-height: 20px;
+    }
+    .info-num li span {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    /* 核心业务 */
+    .business-box {
+        background: #003366 url(../images/business-bg.jpg) no-repeat center bottom;
+        background-size: 100%;
+    }
+    .busi-text1 {
+        font-size: 22px;
+    }
+    .busi-text2 {
+        font-size: 14px;
+    }
+    .business-con .icon img {
+        width: 100px;
+    }
+    .frontage {
+        padding: 20px 15px;
+    }
+    .busi-text3 {
+        overflow: hidden;
+        max-height: 92px;
+        padding-top: 20px;
+    }
+    .busi-text3 span {
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+        white-space: overflow;
+    }
+    .business-item:hover .frontage {
+        transition: all 0.5 ease;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    .business-item:hover .backface {
+        transition: all 0.5 ease;
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    .backface {
+        height: 100%;
+        display: block;
+        transition: all 0.5s ease;
+        position: absolute;
+        z-index:99;
+        left: 2px;
+        top: 2px;
+        padding: 15px;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        overflow: hidden;
+    }
+}
+/* 大屏幕 */
+@media (min-width:1200px) {
+    .info-num li {
+        line-height: 20px;
+        margin: 0 28px;
+    }
+    .info-num li span {
+        font-size: 56px;
+        line-height: 60px;
+    }
+}
+

@@ -1,0 +1,301 @@
+
+.culture-banner img{
+	width:100%;
+}
+.culture-1,.culture-2{
+	border-bottom: 1px dashed #e1e2ec;
+	
+}
+.culture-1,.culture-3{
+	color: #727378;
+}
+.culture-2{
+	color: #566093;
+}
+
+.culture-1 .container,.culture-2 .container,.culture-3 .container{
+	padding-top:30px;
+	padding-bottom: 30px;
+	
+}
+
+.culture-title1{
+	font-size: 24px;
+    line-height: 40px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.culture-title2{
+	font-size: 18px;
+    line-height: 24px;
+	padding-bottom: 10px;
+}
+.culture-intro{
+	font-size: 14px;
+    line-height: 20px;
+	opacity:0.6;
+}
+.culture-spe{
+	padding-top: 30px;
+}
+.culture-4{
+	background:#e7e5dc;
+}
+.culture-4 .container,.culture-5 .container{
+	padding-top:30px;
+}
+
+.culture-4-title{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.culture-5-title{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.culture-4-title img,.culture-5-title img{
+	max-width: 60%;
+}
+.culture-4-text,.culture-5-text{
+	color: #75715c;
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 20px;
+}
+.culture-pic{
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.culture-pic p{
+	float:left;
+	padding:1px;
+}
+.culture-pic p img{
+	width:100%;
+}
+.pic-full{
+	width:100%;
+}
+.pic-small{
+	width:33.33333%;
+}
+.pic-half{
+	width:50%;
+}
+.culture-5{
+	background: #e7e5dc url(http://www.dsconsulting.com.cn/images/culture-5-bg-s.png) center top;
+	margin-bottom: 5px;
+}
+.culture-6{
+	background: #e7dcde;
+	padding:20px 0;
+}
+
+.culture-6 h1,.culture-6 h2{
+	color: #a47789;
+}
+.culture-6 h2{
+	margin-bottom: 0;
+}
+.culture-6-text{
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.culture-6-pic img{
+	width:100%;
+	
+}
+.culture-7{
+	padding:20px 0;
+}
+.culture-7 h1,.culture-7 h2{
+	color: #0c2140;
+}
+.culture-7 h2{
+	margin-bottom: 0;
+}
+.culture-7-text{
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 20px;
+	max-width: 1100px;
+	margin: auto;
+	color: #75715c;
+	padding-top: 20px;
+}
+
+.culture-7-pic img{
+	width:100%;
+	
+}
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+
+	.culture-title1{
+		 font-size: 35px;
+         line-height: 60px;
+		 text-align: left;
+		
+	}
+	.culture-title2{
+		font-size: 20px;
+        line-height: 32px;
+		padding-bottom: 10px;
+	}
+	.culture-intro{
+		font-size: 18px;
+        line-height: 30px;
+		opacity:0.6;
+	}
+	.culture-spe{
+		padding-top: 30px;
+	}
+	.culture-4-text,.culture-5-text,.culture-6-text{
+		font-size: 18px;
+		line-height: 30px;
+		padding-bottom: 30px;
+	}
+	.culture-pic p{
+		padding:2px;
+	}
+	.culture-5{
+		background: #e7e5dc url(http://www.dsconsulting.com.cn/images/culture-5-bg.png) center top;
+	}
+	.culture-6,.culture-7{
+		padding:40px 0;
+	}
+
+	.culture-5-title{
+		padding-top: 40px;
+	}
+	.culture-5-text{
+		max-width:840px;
+		margin: auto;
+	}
+}
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.culture-title1{
+		 font-size: 35px;
+		line-height: 60px;
+		 text-align: left;
+	}
+	.culture-title2{
+		font-size: 20px;
+		line-height: 32px;
+		padding-bottom: 10px;
+	}
+	.culture-intro{
+		font-size: 18px;
+		line-height: 30px;
+		opacity:0.6;
+	}
+	.culture-spe{
+		padding-top: 40px;
+	}
+	.culture-pic{
+		padding-bottom:50px;
+	}
+	.culture-6,.culture-7{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	.culture-4 .container{
+		padding-top:60px;
+	}
+	.culture-5-title{
+		padding-top: 65px;
+	}
+	.culture-6-text{
+		padding-bottom:20px;
+		padding-top: 20px;
+	}
+	.culture-7-text{
+		font-size:18px;
+		line-height: 32px;
+		padding-bottom: 20px;
+	}
+}
+/* 大屏幕（大桌面显示器，大于等于1200px）*/
+@media (min-width: 1200px) {
+	.culture-1 .container,.culture-2 .container,.culture-3 .container{
+		max-width:1403px;
+		margin: auto;
+	}
+	.culture-2 .container{
+		padding:80px 0;
+	}
+	.culture-1 .container{
+		padding:110px 0;
+	}
+	.culture-3 .container{
+		padding:110px 0;
+	}
+	.culture-2 .culture-title1{
+		padding-left: 0;
+	}
+	.culture-2 .culture-title2{
+		padding-left: 0;
+	}
+	.culture-2 .culture-intro{
+		padding-left: 0;
+	}
+	.culture-title1{
+		 font-size: 35px;
+		line-height: 60px;
+		 text-align: left;
+		
+	}
+	.culture-title2{
+		font-size: 20px;
+		line-height: 32px;
+		padding-bottom: 10px;
+	}
+	.culture-intro{
+		font-size: 18px;
+		line-height: 32px;
+		opacity:0.6;
+	}
+	.culture-spe{
+		padding-top: 80px;
+	}
+	.culture-4-text,.culture-5-text,.culture-6-text{
+		line-height: 32px;
+
+	}
+	.culture-4 .container{
+		padding-top:80px;
+	}
+	.culture-pic{
+		padding-bottom:40px;
+	}
+	.culture-6,.culture-7{
+		padding-top:44px;
+		padding-bottom:44px;
+	}
+	.culture-6 h1,.culture-7 h1{
+		font-size:30px;
+		line-height: 50px;
+	}
+	.culture-6 h2,.culture-7 h2{
+		font-size:18px;
+		margin-bottom: 0;
+	}
+	.culture-6-text{
+		font-size: 18px;
+	}
+	.culture-7-text{
+		font-size: 18px;
+		line-height: 32px;
+		padding-top: 20px;
+	}
+}
+
+
+
+

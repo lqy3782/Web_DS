@@ -1,0 +1,288 @@
+
+.recruit-banner img{
+	width:100%;
+}
+.recruit-banner{
+	margin-bottom: 4px;
+}
+.jobs .container{
+	color: #727378;
+	padding-bottom: 15px;
+}
+.jobs .container a{
+	color: #727378;
+}
+.jobs-pic{
+	text-align: center;
+}
+.jobs-pic img{
+	max-width: 40%;
+}
+
+.jobs-title1{
+	text-align: center;
+}
+.jobs{
+	margin-bottom: 4px;
+}
+
+
+.jobs1{
+   background: #d8e0e0;
+	
+}
+.jobs2{
+   background: #f8f7f4;
+	
+}
+.jobs3{
+	background: #e0d8d9;
+}
+.jobs4{
+	background: #f2f7f9;
+}
+.jobs5{
+	background: #ffffff;
+}
+.jobs6{
+	background: #f2f7f9;
+}
+.jobs7{
+	background: #d8e0e0;
+}
+.jobs-intro{
+	opacity: 0.6;
+}
+.jobs-btn{
+	text-align: center;
+}
+.jobs-1-pic,.jobs-2-pic,.jobs-3-pic,.jobs-4-pic,.jobs-5-pic,.jobs-6-pic,.jobs-7-pic{
+	padding-top: 40px;
+}
+.jobs-title1{
+	font-size: 30px;
+	line-height: 50px;
+}
+.jobs-title2{
+	font-size: 20px;
+	line-height: 30px;
+}
+.jobs-intro{
+	font-size: 16px;
+	line-height: 20px;
+}
+.jobs-btn{
+	padding-top: 10px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.jobs-btn a{
+	border:1px solid #535353;
+	padding:5px 10px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.jobs-mobile{
+	display: block;
+}
+.jobs-PC{
+	display: none;
+}
+.breadcrumb{
+	background:none;
+	max-width: 1200px;
+	margin: auto;
+	border-bottom: 1px solid #b2b2b2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000000;
+}
+.recruit_detail_title{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	line-height: 20px;
+	text-align: center;
+}
+.recruit_detail_time{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.recruit_detail_con{
+	font-size: 14px;
+	line-height: 20px;
+}
+.recruit_detail_con span{
+	font-size: 16px;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.recruit_detail .container{
+	max-width: 600px;
+	margin: auto;
+}
+.QR{
+	display: block;
+}
+.QR img{
+	width:100%;
+}
+.QR_PC{
+	display: none;
+}
+.link{
+	overflow: hidden;
+	padding:40px 0;
+}
+.link p{
+	font-size: 14px;
+	line-height: 20px;
+}
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.jobs .container{
+		padding-bottom:0;
+	}
+	.jobs .container .row{
+		display: -webkit-flex; /* Safari */
+		-webkit-align-items: center; /* Safari 7.0+ */
+		display: flex;
+		align-items: center;
+	}
+	.jobs-pic img{
+		max-width: 100%;
+	}
+	.jobs-text{
+		text-align: left;
+	}
+	.jobs-text-right{
+		padding-left: 40px;
+		
+	}
+	.jobs-text-left{
+		padding-right: 40px;
+	}
+	.jobs-1-pic,.jobs-2-pic,.jobs-3-pic,.jobs-4-pic,.jobs-5-pic,.jobs-6-pic,.jobs-7-pic{
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+	.jobs-title1{
+		font-size: 45px;
+		line-height: 60px;
+	}
+	.jobs-title2{
+		font-size: 24px;
+		line-height: 40px;
+	}
+	.jobs-intro{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.jobs-btn{
+		padding-top:20px;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.jobs-mobile{
+		display: none;
+	}
+	.jobs-PC{
+		display: block;
+	}
+	.breadcrumb{
+		padding-top: 35px;
+	}
+	.recruit_detail_title{
+		font-size: 30px;
+		padding-top: 40px;
+		padding-bottom: 10px;
+		line-height: 30px;
+	}
+	.recruit_detail_time{
+		padding-bottom: 100px;
+	}
+	.recruit_detail_con{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.recruit_detail_con span{
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+	.QR{
+		display: none;
+	}
+	.QR_PC{
+		display: block;
+		text-align: center;
+	}
+	.link-next{
+		text-align: right;
+	}
+	.link p{
+		float: left;
+		width:50%;
+	}
+
+	
+}
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+
+	.jobs-text-right{
+		padding-left: 50px;
+	}
+	.jobs-text-left{
+		padding-right: 50px;
+	}
+	.jobs-1-pic,.jobs-2-pic,.jobs-3-pic,.jobs-4-pic,.jobs-5-pic,.jobs-6-pic,.jobs-7-pic{
+		padding-top: 80px;
+		padding-bottom: 50px;
+	}
+	.jobs-title1{
+		font-size: 50px;
+		line-height: 70px;
+		text-align: left;
+	}
+	.jobs-title2{
+		font-size: 24px;
+		line-height: 40px;
+	}
+	.jobs-intro{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.jobs-btn{
+		padding-top: 50px;
+		font-size: 38px;
+		line-height: 40px;
+	}
+}
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.jobs-1-pic,.jobs-2-pic,.jobs-3-pic,.jobs-4-pic,.jobs-5-pic,.jobs-6-pic,.jobs-7-pic{
+		 padding-top: 100px;
+		 padding-bottom: 60px;
+	}
+	.jobs-title1{
+		font-size: 56px;
+		line-height: 70px;
+		text-align: left;
+	}
+	.jobs-title2{
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.jobs-intro{
+		font-size: 24px;
+		line-height: 40px;
+	}
+	.jobs-btn{
+		padding-top: 50px;
+		font-size: 38px;
+		line-height: 40px;
+	}
+	
+}
